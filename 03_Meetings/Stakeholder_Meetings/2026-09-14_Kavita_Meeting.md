@@ -1,7 +1,6 @@
 # Kavita Meeting
 
 **Date:** 2026-09-14
-**Source:** Google Doc - Tab 6
 
 ---
 
