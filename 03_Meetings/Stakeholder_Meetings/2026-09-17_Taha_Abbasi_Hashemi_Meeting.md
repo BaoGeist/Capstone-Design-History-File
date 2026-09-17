@@ -33,4 +33,13 @@
     - And then that means we basically isolate a specific vessel (won’t have several in one image) 
 - Deploy as a desktop app
 
+**Links/Resources:**
+- Terason (ultrasound): https://www.terason.com/usmart-3300/
+- Danny Green research: https://journals.physiology.org/doi/full/10.1152/jappl.2001.91.2.929
+- PhysioMerge preprint: https://assets-eu.researchsquare.com/files/rs-7707776/v1_covered_34de066f-245f-49d8-8ceb-1f4293a15a5f.pdf
+
+**Action Items:**
+- Thank you email + questions
+- Research doppler ultrasounds } how exactly they calculate velocity
+
 
