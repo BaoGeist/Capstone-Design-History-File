@@ -7,10 +7,9 @@
 - 2 main views: 
     - In longitudinal view, assist user in calculating the diameter (perpendicular to the vessel direction)
     - In transverse view get cross sectional area
-    - *are both views provided as input data?*
 - Be able to size things with the rulers provided
 - Take the perpendicular diameter from the longitudinal image
-- Daniel green’s  software is the only one that is similar - written in 4chan
+- Daniel green’s  software is the only one that is similar - written in forchan
 - Videos are direct video output of the ultrasound effects
     - Terason duplex doppler ultrasound
 - We can take scans of ourselves & process our own info
