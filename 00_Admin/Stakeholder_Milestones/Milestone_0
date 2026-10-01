@@ -1,0 +1,135 @@
+# Milestone 0: Timeline & Project Planning
+**Created:** 2026-10-02
+**Last Edited:** 2026-10-01
+
+## Timeline
+### Stakeholder Milestones
+| Week # | Dates | Milestone Tasks | Project Manager | 
+| --- | --- | --- | --- |
+| 1 | 2026-09-26 - 2026-10-02 | M0: Timeline & Project Planning | Seaya |
+| 2-4 | 2026-10-03 - 2026-10-23 | M1: Preliminary Research & Design Inputs | Ursula (co-lead with Kyle) |
+| 5-6 | 2026-10-24 - 2026-11-06 | M2: Research & Design Plannning | Kyle (co-lead with Ursula) |
+| 7-9 | 2026-11-07 - 2026-11-20 | M3: Component Prototyping & Design Outputs | Baoze |
+| 9-10 | 2026-11-28 - 2026-12-04 | M4: Final Implementation Plan | Seaya |
+
+### Course Deadlines
+| Week # | Date | Deliverable | Assigned Milestone |
+| --- | --- | --- | --- | 
+| 1 | 2026-10-02 | Progress Report 1 | M0 |
+| 2-4 | 2026-10-23 | Progress Report 2 | M1 |
+| 5-6 | 2026-10-29 | Graded Advisor Meeting 1 | M2 |
+| 9-10 | 2026-11-26 |  Graded Advisor Meeting 2 | M3 |
+| 9-10 | 2026-12-03 | POC Demo Deadline | M3 + M4 | 
+| >10 | 2026-12-11 | Progress Report 2 | M4 |
+
+
+
+## Milestone Descriptions
+### Milestone 0: Timeline & Project Planning
+
+**Due:** 2026-10-02
+
+**Lead:** Seaya
+
+Create a fall semester timeline for stakeholder milestones, defining research topics, user needs, rough deadlines, and project manager assignments. 
+
+#### Course Deliverable(s)
+Progress Report 1 is due on October 2nd, focusing on the topics: 
+- Background and motivation (Ursula)
+- User needs and project statement (Seaya)
+
+<br>
+<hr style="border: none; border-top: 1px dashed;">
+
+### Milestone 1: Preliminary Research & Design Inputs
+**Due:** 2026-10-02
+**Lead:** Ursula
+
+Complete preliminary research on the following topics to guide design input decisions and development planning: 
+1. Doppler ultrasound (B-mode, Doppler, FMD)
+    - **Assignee:** Baoze
+    - Determine what we need to test (which kinds of ultrasounds - ex. interventions vs standard, how many and type of test subjects)
+    - Bonus : ECG (Pan-Tompkins Algorithm)
+2. Danny Green's software
+    - **Assignee:** Ursula
+    - Written in 4tran, can do perpendicular diameter measurement, cannot do cross sectional area
+    - Does not meet all user need requirements
+3. PhysioMerge integration
+    - **Assignee:** Kyle
+    - What functions/commands can we use? How will we use them?
+    - What additional features does it enable us to add to our software?
+4. Image processing tools & libraries
+    - **Assignee:** Seaya
+    - Research commonly used tools for edge detection
+    - Are there specific tools better suited for ultrasound imaging?
+
+The following task categories and corresponding tasks are largely pulled from Progress Report 1 instructions, with some additional notes for our scope. 
+
+#### Design Inputs
+- Define the requirements, specifications, objectives, and constraints that the design is expected to satisfy.
+- Develop objective and, wherever feasible, quantitative criteria through stakeholder consultation, literature
+review, and discussions with disciplinary instructors.
+    - Based on Doppler ultrasound research + stakeholder defined user needs, create a list of ultrasound data types needed to produce robust, full-coverage software.
+        - i.e. interventional vs standard - and what kinds of interventions -> what does that do the image processing system?
+    - Use preliminary FMD recording to detail specific Doppler ultrasound metrics and data.
+- Consider technical, economic, environmental, ergonomic, societal, safety, legal, and regulatory inputs as
+applicable.
+- Trace each important design input to a user need, stakeholder expectation, risk, standard, or other credible
+source
+
+#### Development Process & Preliminary Plan
+- Describe the structured process your team will use to generate, analyze, and compare multiple design
+concepts.
+    - How will we be exploring/testing different image processing tools/libraries? 
+    - What are some preliminary design outputs that we will be working towards?
+- Use relevant theory, calculations, models, or simulations to investigate feasibility to an appropriate
+preliminary depth.
+- Consider uncertainty and trade-offs, including societal, environmental, and legal factors that could affect
+concept selection.
+
+#### Preliminary Risk Analysis
+- Identify early health and safety risks associated with implementation, prototyping, verification,
+manufacturing, deployment, or use.
+- Identify potentially applicable standards, codes, laws, and regulatory requirements, including the
+consequences of non-compliance. At this stage, a preliminary assessment is expected.
+- Identify relevant ethical concerns and their possible effects on users or society.
+- Comment on how the identified risks or constraints influence design concept generation and evaluation
+
+#### Course Deliverable(s)
+Progress Report 2 is due on October 23rd, focusing on the topics: 
+- Updated user and problem framing (Seaya)
+- Design inputs (Baoze)
+- Concept-development process and preliminary analysis  (All)
+- Preliminary risk analysis (Ursula)
+
+<br>
+<hr style="border: none; border-top: 1px dashed;">
+
+### Milestone 2: Research & Design Plannning
+
+
+**Due:** 2026-11-20
+
+**Lead:** Kyle
+
+<br>
+<hr style="border: none; border-top: 1px dashed;">
+
+### Milestone 3: Component Prototyping & Design Outputs
+
+**Due:** 2026-11-20
+
+**Lead:** Baoze
+
+<br>
+<hr style="border: none; border-top: 1px dashed;">
+
+### Milestone 4: Final Implementation Plan
+
+**Due:** 2026-12-04
+
+**Lead:** Seaya
+
+
+
+
