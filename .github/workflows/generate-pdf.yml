@@ -38,4 +38,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Auto-generate PDF versions of markdown files"
-          folder: 00_Admin/Stakeholder_Milestones/PDF_Outputs
+          file_pattern: "00_Admin/Stakeholder_Milestones/PDF_Outputs/*.pdf"

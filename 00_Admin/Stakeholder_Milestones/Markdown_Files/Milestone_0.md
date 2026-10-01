@@ -152,7 +152,6 @@ Determine if any materials or resources need to be requested for the prototyping
 
 **Lead:** Baoze
 
-// Description of milestone
 
 #### Course Deliverable(s)
 1. A **graded advisor meeting** is scheduled for **November 26th**, with Dr. McDonald, Dr. Smith, and Mohammed. **The meeting agenda must be submitted to the advisors one week before the scheduled meeting, on November 19th.**
