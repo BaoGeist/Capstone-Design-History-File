@@ -15,10 +15,18 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install Pandoc and LaTeX engine
+      - name: Install Pandoc
         run: |
           sudo apt-get update
-          sudo apt-get install -y pandoc texlive-xetex
+          sudo apt-get install -y pandoc
+
+      - name: Install and Cache TeX Live
+        uses: zauguin/install-texlive@v4
+        with:
+          # Only install what xetex needs to keep it as fast and small as possible
+          packages: |
+            collection-xetex
+            scheme-basic
 
       - name: Ensure output directory exists
         run: mkdir -p "00_Admin/Stakeholder_Milestones/PDF_Outputs"
