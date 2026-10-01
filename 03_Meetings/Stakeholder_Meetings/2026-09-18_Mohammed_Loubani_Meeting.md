@@ -17,7 +17,7 @@
 - he doesn't think we need avaros, we could mock smth up in railway with mock data & have a working prototype without them
 - demo with AI and without AI to show how it works
 
-- also Mohammed can give us mock data } deidentify and anonymize mock data to meet PHIPPA standards to preserve important clinical context while keeping private
+- also Mohammed can give us mock data deidentify and anonymize mock data to meet PHIPPA standards to preserve important clinical context while keeping private
     - this is used to train the data
     - example with lung issues and mammogram data (radiologist who read it saw that this is cancer & needed biopsy immediately) -> MOA manually filed with the wrong provider (a ghost user) and wasn't addressed for 3-5 months. meanwhile avaros's ai would've recognized it as important immediately and connected with right provider
         - "need to be OCR'd by us"

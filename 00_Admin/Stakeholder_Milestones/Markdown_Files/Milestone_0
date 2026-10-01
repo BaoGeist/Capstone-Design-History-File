@@ -88,7 +88,7 @@ The following task categories and details are largely pulled from Progress Repor
 - Develop objective and, wherever feasible, quantitative criteria through stakeholder consultation, literature
 review, and discussions with disciplinary instructors.
     - Based on Doppler ultrasound research + stakeholder defined user needs, create a list of ultrasound data types needed to produce robust, full-coverage software.
-        - i.e. interventional vs standard - and what kinds of interventions → what does that do the image processing system?
+        - i.e. interventional vs standard - and what kinds of interventions? How will that define our coverage?
     - Use preliminary FMD recording to detail specific Doppler ultrasound metrics and data.
 - Consider technical, economic, environmental, ergonomic, societal, safety, legal, and regulatory inputs as
 applicable.
@@ -130,7 +130,7 @@ consequences of non-compliance.
 
 **Lead:** Kyle
 
-Complete and compile research from Milestone 1 towards defining and detailing specific project tickets. Refine and iterate on the design plan based on continual stakehodler feedback, determine design outputs, create a rough stage-based timeline, and discuss responsbility divisions. 
+Complete and compile research from Milestone 1 towards defining and detailing specific project tickets. Refine and iterate on the design plan based on continual stakehodler feedback, determine design outputs, create a rough stage-based timeline, and discuss responsibility divisions. 
 
 Determine if any materials or resources need to be requested for the prototyping stage (and future development stages).
 
@@ -170,7 +170,7 @@ Determine if any materials or resources need to be requested for the prototyping
 
 **Lead:** Seaya
 
-Compile research, protyping, decisions, and design plan drafts into one comprehensive final implementation plan. This plan should meet all the requirements outlined in the **"Final concept and preliminary design configuration"** section below. 
+Compile research, prototypes, decisions, and design plan drafts into one comprehensive final implementation plan. This plan should meet all the requirements outlined in the **"Final concept and preliminary design configuration"** section below. 
 
 The following task categories and details are pulled from Progress Report 3 instructions.  
 
@@ -210,7 +210,7 @@ relevant.
     - Design outputs
     - Final concept and preliminary design configuration
     - Risk and compliance management plan
-3. **Proof of Concept Demo** occurs on **December 3rd**, focusing on the folllowing (All):
+3. **Proof of Concept Demo** occurs on **December 3rd**, focusing on the following (All):
     - Explanation of design choices and assumption
     - Showcasing prototype of project
     - Feedback from professors and teaching assistants

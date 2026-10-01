@@ -1,0 +1,41 @@
+name: Generate PDFs from Markdown
+
+on:
+  push:
+    branches:
+      - main
+      - feat/stakeholder_milestones
+    paths:
+      - '00_Admin/Stakeholder_Milestones/Markdown_Files/**'
+
+jobs:
+  build-pdfs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Pandoc and LaTeX engine
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-xetex
+
+      - name: Ensure output directory exists
+        run: mkdir -p "00_Admin/Stakeholder_Milestones/PDF_Outputs"
+
+      - name: Convert Markdown to PDF
+        run: |
+          for file in 00_Admin/Stakeholder_Milestones/Markdown_Files/*.md; do
+            # Check if files actually exist to prevent errors if the folder is empty
+            if [ -f "$file" ]; then
+              filename=$(basename "$file" .md)
+              pandoc "$file" -o "00_Admin/Stakeholder_Milestones/PDF_Outputs/$filename.pdf" --pdf-engine=xelatex
+              echo "Converted $filename.md to PDF"
+            fi
+          done
+          
+      - name: Commit generated PDFs back to repo
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Auto-generate PDF versions of markdown files"
+          folder: 00_Admin/Stakeholder_Milestones/PDF_Outputs
