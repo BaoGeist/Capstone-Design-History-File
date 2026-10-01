@@ -1,4 +1,9 @@
 # Meeting with Stephen from Sarcolink
+
+**Date:** 2026-09-16
+
+---
+
 **Questions:**
 - From the description, it sounds like the scope is confined to designing the UI for the therapy tool, is that correct? Would we be also responsible for the hardware part?
   - depends on the talents that each group has

@@ -1,4 +1,9 @@
-# Meeting with Taha 
+# Meeting with Taha
+
+**Date:** 2026-09-17
+
+---
+
 **Questions:**
 - What software currently exists towards solving the problem specified? 
 - Will there be images with several blood vessels - can we extend to select a particular vessel?
