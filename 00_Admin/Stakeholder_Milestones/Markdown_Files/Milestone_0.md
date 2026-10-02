@@ -1,8 +1,32 @@
 # Milestone 0: Timeline & Project Planning
 **Created:** 2026-10-02
 
-## Timeline
-### Stakeholder Milestones
+## Table of Contents
+- [Timeline](#timeline)
+    - [Stakeholder Milestones](#stakeholder-milestones)
+    - [Course Deadlines](#course-deadlines)
+- [Milestone Planning](#milestone-planning)
+    - [Milestone 0: Timeline & Project Planning](#milestone-0-timeline--project-planning-1)
+    - [Milestone 1: Preliminary Research & Design Inputs](#milestone-1-preliminary-research--design-inputs)
+    - [Milestone 2: Research & Design Planning](#milestone-2-research--design-planning)
+    - [Milestone 3: Component Prototyping & Design Outputs](#milestone-3-component-prototyping--design-outputs)
+    - [Milestone 4: Final Implementation Plan](#milestone-4-final-implementation-plan)
+- [Appendix A: Progress Report Instructions](#appendix-a-progress-report-instructions)
+    - [Progress Report 1](#progress-report-1)
+        - [Background and Motivation](#background-and-motivation)
+        - [User needs and project statement](#user-needs-and-project-statement)
+    - [Progress Report 2](#progress-report-2)
+        - [Design Inputs](#design-inputs)
+        - [Development Process & Preliminary Plan](#development-process--preliminary-plan)
+        - [Preliminary Risk Analysis](#preliminary-risk-analysis)
+    - [Progress Report 3](#progress-report-3)
+        - [Summary](#summary)
+        - [Design Outputs](#design-outputs)
+        - [Final concept and preliminary design configuration](#final-concept-and-preliminary-design-configuration)
+        - [Risk and compliance management plan](#risk-and-compliance-management-plan)
+
+# Timeline
+## Stakeholder Milestones
 | Week # | Dates | Milestone Tasks | Project Manager | 
 | --- | --- | --- | --- |
 | 1 | 2026-09-26 - 2026-10-02 | M0: Timeline & Project Planning | Seaya |
@@ -23,21 +47,22 @@
 
 
 
-## Milestone Descriptions
+## Milestone Planning
 ### Milestone 0: Timeline & Project Planning
 
 **Due:** 2026-10-02
 
 **Lead:** Seaya
 
+#### Milestone Deliverables
+
 Create a fall semester timeline for stakeholder milestones, defining research topics, user needs, rough deadlines, and project manager assignments. 
 
-Progress Report 1 requirements: [Appendix A — Progress Report 1](#progress-report-1)
-
-#### Course Deliverable(s)
+#### Course Deliverables
 1. **Progress Report 1** is due on **October 2nd**, focusing on the topics: 
-    - [Background and motivation](#background-and-motivation) (Ursula)
-    - [User needs and project statement](#user-needs-and-project-statement) (Seaya)
+    - Background and motivation (Ursula)
+    - User needs and project statement (Seaya)
+    - Requirements are listed at [Appendix A — Progress Report 1](#progress-report-1)
 
 <br>
 <hr style="border: none; border-top: 1px dashed;">
@@ -67,7 +92,7 @@ Complete preliminary research on the following topics to guide design input deci
     - Research commonly used tools for edge detection
     - Are there specific tools better suited for ultrasound imaging?
 
-#### Planned Tasks
+### Milestone Deliverables
 **Requirements & data**
 
 - List image processing requirements and robustness cases
@@ -82,33 +107,19 @@ Complete preliminary research on the following topics to guide design input deci
 - PhysioMerge recon: data handling, available commands
 - Write a PhysioMerge integration spec
 
-**Stakeholder**
-
-- Send our question list to Taha
-
-Progress Report 2 requirements: [Appendix A — Progress Report 2](#progress-report-2). Our scope-specific notes for those sections:
-
-#### Design Input Notes
-- Based on Doppler ultrasound research + stakeholder defined user needs, create a list of ultrasound data types needed to produce robust, full-coverage software.
-    - i.e. interventional vs standard - and what kinds of interventions? How will that define our coverage?
-- Use preliminary FMD recording to detail specific Doppler ultrasound metrics and data.
-
-#### Development Process Notes
-- How will we be exploring/testing different image processing tools/libraries? 
-- What are high-level design outputs that we will be working towards?
-
-#### Course Deliverable(s)
+### Course Deliverables
 1. **Progress Report 2** is due on **October 23rd**, focusing on the topics: 
     - Updated user and problem framing (Seaya)
-    - [Design inputs](#design-inputs) (Baoze)
-    - [Concept-development process and preliminary analysis](#development-process--preliminary-plan)  (All)
-    - [Preliminary risk analysis](#preliminary-risk-analysis) (Ursula)
+    - Design inputs (Baoze)
+    - Concept-development process and preliminary analysis  (All)
+    - Preliminary risk analysis (Ursula)
+    - - Requirements are listed at [Appendix A — Progress Report 2](#progress-report-2)
 2. A **graded advisor meeting** is scheduled for **October 29th**, with Dr. McDonald, Dr. Smith, and Mohamad. **The meeting agenda must be submitted to the advisors *one week* before the scheduled meeting, on October 22nd.** See Milestone 2 course deliverables for more details on meeting requirements.
 
 <br>
 <hr style="border: none; border-top: 1px dashed;">
 
-### Milestone 2: Research & Design Planning
+## Milestone 2: Research & Design Planning
 
 **Due:** 2026-11-06
 
@@ -120,7 +131,7 @@ Determine if any materials or resources need to be requested for the prototyping
 
 **// insert excalidraw plan here? discuss iterations + future questions + write we will specific task divisions are TBD depending on research results + other planning details**
 
-#### Planned Tasks
+## Milestone Deliverables
 **Segmentation & test harness**
 
 - Compare segmentation methods
@@ -143,7 +154,7 @@ Determine if any materials or resources need to be requested for the prototyping
 - Define UI states (process, edit, pause, cancel, undo)
 - Wireframe the UI and start the Figma overlay
 
-#### Course Deliverable(s)
+### Course Deliverables
 1. A **graded advisor meeting** is scheduled for **October 29th**, with Dr. McDonald, Dr. Smith, and Mohammed.
 
     The graded instructor meetings evaluate the quality of the team’s engineering design process across the full year. They provide recurring checkpoints for students to demonstrate preparation, technical progress, engineering judgement, responsiveness to evidence and feedback, and a credible plan for subsequent work.
@@ -153,13 +164,13 @@ Determine if any materials or resources need to be requested for the prototyping
 <br>
 <hr style="border: none; border-top: 1px dashed;">
 
-### Milestone 3: Component Prototyping & Design Outputs
+## Milestone 3: Component Prototyping & Design Outputs
 
 **Due:** 2026-11-20
 
 **Lead:** Baoze
 
-#### Planned Tasks
+### Milestone Deliverables
 **Foundation**
 
 - Prototype automatic region detection
@@ -189,7 +200,7 @@ Determine if any materials or resources need to be requested for the prototyping
 
 All prototypes should work by the end of this milestone.
 
-#### Course Deliverable(s)
+### Course Deliverables
 1. A **graded advisor meeting** is scheduled for **November 26th**, with Dr. McDonald, Dr. Smith, and Mohamad. **The meeting agenda must be submitted to the advisors one week before the scheduled meeting, on November 19th.**
 
 2. The **POC demo** will take place **between December 3rd and December 10th**. For our timeline purposes we are aiming to complete corresponding tasks and deliverables for December 3rd. At this time (2026-10-02), the demo rubric has not been released, so the following tasks are high-level ideas aligned with what we would want to test/prototype in these planning stages for our end product:
@@ -207,25 +218,24 @@ All prototypes should work by the end of this milestone.
 
 Compile research, prototypes, decisions, and design plan drafts into one comprehensive final implementation plan. This plan should meet all the requirements outlined in [Final concept and preliminary design configuration](#final-concept-and-preliminary-design-configuration) in Appendix A.
 
-Progress Report 3 requirements: [Appendix A — Progress Report 3](#progress-report-3)
-
-#### Planned Tasks
+#### Milestone Deliverables
 - Validate Doppler metrics
 - Validate diameter against Danny Green's software
 - Validate CSA against manual tracings
 - Finalize the PhysioMerge integration design
 - Compile the final design document
 
-#### Course Deliverable(s)
+#### Course Deliverables
 1. A **graded advisor meeting** is scheduled for **November 26th**, with Dr. McDonald, Dr. Smith, and Mohamad. 
 
     At this stage of the project, the team is expected to present a preliminary prototype and explain the design outputs that are chosen. Instructors use this meeting to provide constructive criticism and challenge the team to consider scenarios that have yet to be implemented. The team will consolidate and refine the prototype before the POC demonstration.
 
 2. **Progress Report 3** is due on **December 11th**, focusing on topics: (responsibility divisions are TBD)
-    - [Summary](#summary) (background, user inputs and solution)
-    - [Design outputs](#design-outputs)
-    - [Final concept and preliminary design configuration](#final-concept-and-preliminary-design-configuration)
-    - [Risk and compliance management plan](#risk-and-compliance-management-plan)
+    - Summary (background, user inputs and solution)
+    - Design outputs
+    - Final concept and preliminary design configuration
+    - Risk and compliance management plan
+    - Requirements are listed at [Appendix A — Progress Report 3](#progress-report-3)
 3. **Proof of Concept Demo** occurs on **December 3rd**, focusing on the following (All):
     - Explanation of design choices and assumption
     - Showcasing prototype of project
