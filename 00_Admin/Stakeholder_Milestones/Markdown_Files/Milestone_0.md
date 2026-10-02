@@ -113,7 +113,7 @@ Complete preliminary research on the following topics to guide design input deci
     - Design inputs (Baoze)
     - Concept-development process and preliminary analysis  (All)
     - Preliminary risk analysis (Ursula)
-    - - Requirements are listed at [Appendix A — Progress Report 2](#progress-report-2)
+      - Requirements are listed at [Appendix A — Progress Report 2](#progress-report-2)
 2. A **graded advisor meeting** is scheduled for **October 29th**, with Dr. McDonald, Dr. Smith, and Mohamad. **The meeting agenda must be submitted to the advisors *one week* before the scheduled meeting, on October 22nd.** See Milestone 2 course deliverables for more details on meeting requirements.
 
 <br>
@@ -125,11 +125,7 @@ Complete preliminary research on the following topics to guide design input deci
 
 **Lead:** Kyle
 
-Complete and compile research from Milestone 1 towards defining and detailing specific project tickets. Refine and iterate on the design plan based on continual stakehodler feedback, determine design outputs, create a rough stage-based timeline, and discuss responsibility divisions. 
-
-Determine if any materials or resources need to be requested for the prototyping stage (and future development stages).
-
-**// insert excalidraw plan here? discuss iterations + future questions + write we will specific task divisions are TBD depending on research results + other planning details**
+Complete and compile research from Milestone 1 towards defining and detailing specific project tickets. Refine and iterate on the design plan based on continual stakeholder feedback, determine design outputs, create a rough stage-based timeline, and discuss responsibility divisions. Determine if any materials or resources need to be requested for the prototyping stage (and future development stages).
 
 ## Milestone Deliverables
 **Segmentation & test harness**
