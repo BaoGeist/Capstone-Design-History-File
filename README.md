@@ -20,14 +20,8 @@ This Design History File is the authoritative record of our engineering design p
 | `00_Admin/` | Team roles, responsibilities, Gantt chart, project plan |
 | `01_Background/` | Literature reviews, stakeholder communications, standards & regulations |
 | `02_Requirements/` | Design inputs, stakeholder needs, requirements traceability |
-| `03_Meetings/` | Meeting agendas, minutes, action items (weekly, instructor, stakeholder) |
-| `04_Design/` | Concept generation, evaluation matrices, detailed design (CAD, schematics, calculations) |
-| `05_Implementation/` | Code, manufacturing info, assembly instructions, bills of materials |
-| `06_Testing/` | Test procedures, raw data, processed results, photos & videos |
-| `07_Risk_Analysis/` | FMEA, risk mitigation plans |
-| `08_Design_Reviews/` | Discussion documents and feedback records for each review |
-| `09_Decisions_Log/` | Decision records linking evidence to choices |
-| `10_Superseded_Approaches/` | Failed approaches and abandoned designs with reasoning |
+| `03_Meetings/` | Meeting agendas, minutes, action items |
+| `04_Design/` | Concept generation, evaluation matrices, detailed design |
 <!-- FOLDER_TABLE_END -->
 
 ## File Naming Convention
