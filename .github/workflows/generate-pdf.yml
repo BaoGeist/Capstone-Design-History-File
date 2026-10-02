@@ -5,6 +5,7 @@ on:
     branches:
       # - main
       - feat/stakeholder_milestones
+      - feat/fall_work_breakdown
     paths:
       - '00_Admin/Stakeholder_Milestones/Markdown_Files/**'
 
