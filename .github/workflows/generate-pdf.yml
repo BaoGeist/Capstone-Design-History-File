@@ -3,7 +3,7 @@ name: Generate PDFs from Markdown
 on:
   push:
     branches:
-      - main
+      # - main
       - feat/stakeholder_milestones
     paths:
       - '00_Admin/Stakeholder_Milestones/Markdown_Files/**'
@@ -11,22 +11,16 @@ on:
 jobs:
   build-pdfs:
     runs-on: ubuntu-latest
+    permissions: 
+      contents: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install Pandoc
+      - name: Install Pandoc annd LaTeX engine
         run: |
           sudo apt-get update
-          sudo apt-get install -y pandoc
-
-      - name: Install and Cache TeX Live
-        uses: zauguin/install-texlive@v4
-        with:
-          # Only install what xetex needs to keep it as fast and small as possible
-          packages: |
-            collection-xetex
-            scheme-basic
+          sudo apt-get install -y pandoc texlive-xetex texlive-latex-recommended
 
       - name: Ensure output directory exists
         run: mkdir -p "00_Admin/Stakeholder_Milestones/PDF_Outputs"
