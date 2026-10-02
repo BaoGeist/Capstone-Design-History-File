@@ -70,21 +70,21 @@ Complete preliminary research on the following topics to guide design input deci
 #### Planned Tasks
 **Requirements & data**
 
-- List the image processing requirements: every region on screen, every measurement, and the robustness cases (ruler baseline and scale changes, depth changes, movement, bad frames)
-- Determine hardware constraints: the target machine, GPU or CPU only, and whether processing must run in real time
-- Build a small test dataset from our recordings, with Danny Green's values where possible and hand-extracted ground truth (scale, expected graph values)
-- Write a validation test plan against Danny Green's software and any other references
-- Brainstorm methods to segment the video into regions (ultrasound image, graph, scales)
+- List image processing requirements and robustness cases
+- Determine hardware constraints (GPU/CPU, real-time)
+- Build a test dataset with ground truth
+- Write a validation test plan against Danny Green's software
+- Brainstorm video segmentation methods
 
 **GUI & PhysioMerge**
 
-- List UI requirements: view selection, vessel selection, edge editing, reviewing values
-- PhysioMerge recon: how it handles data, and what functions and commands it gives us
-- Write a PhysioMerge integration spec: how it handles noise, and what error handling we need on our end
+- List UI requirements
+- PhysioMerge recon: data handling, available commands
+- Write a PhysioMerge integration spec
 
 **Stakeholder**
 
-- Send our question list to Taha: hardware, the PhysioMerge interface, green box behaviour, depth changes mid-recording, how messy data should appear in the output, frame rate, how vessels are selected, and whether he is marking the fall reports
+- Send our question list to Taha
 
 Progress Report 2 requirements: [Appendix A — Progress Report 2](#progress-report-2). Our scope-specific notes for those sections:
 
@@ -121,27 +121,27 @@ Determine if any materials or resources need to be requested for the prototyping
 **// insert excalidraw plan here? discuss iterations + future questions + write we will specific task divisions are TBD depending on research results + other planning details**
 
 #### Planned Tasks
-**Region segmentation & test harness**
+**Segmentation & test harness**
 
-- Compare video segmentation methods in an evaluation matrix
-- Throwaway test: reliably segment the regions on the test dataset, starting with fixed regions
-- Design a test harness that runs each image processing task against the test dataset
+- Compare segmentation methods
+- Throwaway test: segment fixed regions on the test dataset
+- Design the test harness
 
-**Throwaway tests for the highest-risk algorithms**
+**Throwaway tests for high-risk algorithms**
 
-- Doppler: read the scale with OCR (values, baseline, inversion, changes mid-recording)
-- Doppler: convert the bottom graph into time-series data and find the upper, middle and lower envelope
-- Doppler: separate the green ECG trace from the white Doppler trace and detect R-peaks
-- Doppler: follow the timeline using timestamps rather than an assumed fixed frame rate
-- B-mode: read the depth scale with OCR
-- Longitudinal view: edge-detect the artery wall contours
-- Longitudinal view: calculate the true (angle-corrected) diameter rather than the vertical distance
-- Transverse view: detect circular vessel candidates
+- Doppler: OCR the scale
+- Doppler: extract the waveform and its envelope
+- Doppler: separate the ECG and detect R-peaks
+- Doppler: track the timeline from timestamps
+- B-mode: OCR the depth scale
+- Longitudinal: detect artery walls
+- Longitudinal: calculate angle-corrected diameter
+- Transverse: detect circular vessels
 
 **UI**
 
-- Define UI states and expected uses: process a full video, edge-detect an artery on one frame, let the user fix the detection and show them clear feedback, pause, cancel and undo
-- Wireframe the UI and start the Figma overlay design
+- Define UI states (process, edit, pause, cancel, undo)
+- Wireframe the UI and start the Figma overlay
 
 #### Course Deliverable(s)
 1. A **graded advisor meeting** is scheduled for **October 29th**, with Dr. McDonald, Dr. Smith, and Mohammed.
@@ -162,32 +162,32 @@ Determine if any materials or resources need to be requested for the prototyping
 #### Planned Tasks
 **Foundation**
 
-- Prototype automatic region detection, replacing the fixed regions
-- Implement the test harness and verify it on the FMD video
-- Define the output interface to the UI and PhysioMerge, including how messy data is represented (deleted frames, nulls, error values)
+- Prototype automatic region detection
+- Implement and verify the test harness
+- Define the output interface, including messy data
 
 **Doppler**
 
-- Turn the scale, waveform and envelope, ECG R-peak and timeline tests into prototypes
-- Define the real-time metrics: velocity, systole/diastole, pulsatility index (using PhysioMerge where possible)
+- Prototype scale, waveform, ECG and timeline
+- Define metrics: velocity, systole/diastole, pulsatility index
 
 **Longitudinal view**
 
-- Turn the depth scale, artery wall and true diameter tests into prototypes
-- Isolate the green placement box, including when it changes shade or opacity or disappears
-- Track diameter across frames (pulse, FMD dilation, movement)
+- Prototype depth scale, wall detection and diameter
+- Isolate the green placement box
+- Track diameter across frames
 
 **Transverse view**
 
-- Prototype vessel detection and CSA for arteries and veins
-- Track CSA across frames, including vein collapse
+- Prototype vessel detection and CSA
+- Track CSA across frames
 
 **GUI**
 
-- Finish the Figma overlay design
-- Prototype the overlay on the FMD video: show the best vessel candidate and accept user edits
+- Finish the Figma overlay
+- Prototype the overlay on the FMD video
 
-All prototypes should be working by the end of this milestone, so Milestone 4 is for validation and documentation rather than new algorithm work.
+All prototypes should work by the end of this milestone.
 
 #### Course Deliverable(s)
 1. A **graded advisor meeting** is scheduled for **November 26th**, with Dr. McDonald, Dr. Smith, and Mohamad. **The meeting agenda must be submitted to the advisors one week before the scheduled meeting, on November 19th.**
@@ -210,10 +210,10 @@ Compile research, prototypes, decisions, and design plan drafts into one compreh
 Progress Report 3 requirements: [Appendix A — Progress Report 3](#progress-report-3)
 
 #### Planned Tasks
-- Validate the Doppler metrics on the test dataset
-- Validate perpendicular diameter against Danny Green's software on the test dataset
+- Validate Doppler metrics
+- Validate diameter against Danny Green's software
 - Validate CSA against manual tracings
-- Finalize the PhysioMerge integration design: which steps we hand off (systole/diastole, data deletion, metrics)
+- Finalize the PhysioMerge integration design
 - Compile the final design document
 
 #### Course Deliverable(s)
