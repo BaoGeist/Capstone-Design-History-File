@@ -2,8 +2,6 @@ name: Update README Folder Structure
 
 on:
   push:
-    paths:
-      - '**/[!.]*'
 
 jobs:
   update-readme:
