@@ -5,37 +5,52 @@ on:
     branches:
       # - main
       - feat/stakeholder_milestones
+      - feat/fall_work_breakdown
     paths:
       - '00_Admin/Stakeholder_Milestones/Markdown_Files/**'
+      - '.github/workflows/generate-pdf.yml'
+  workflow_dispatch:
 
 jobs:
   build-pdfs:
     runs-on: ubuntu-latest
-    permissions: 
+    permissions:
       contents: write
+    env:
+      SRC_DIR: 00_Admin/Stakeholder_Milestones/Markdown_Files
+      OUT_DIR: 00_Admin/Stakeholder_Milestones/PDF_Outputs
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install Pandoc annd LaTeX engine
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y pandoc texlive-xetex texlive-latex-recommended
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # md-to-pdf renders Markdown -> HTML -> PDF with headless Chromium (Puppeteer)
+      - name: Install md-to-pdf
+        run: npm install -g md-to-pdf
 
       - name: Ensure output directory exists
-        run: mkdir -p "00_Admin/Stakeholder_Milestones/PDF_Outputs"
+        run: mkdir -p "$OUT_DIR"
 
       - name: Convert Markdown to PDF
         run: |
-          for file in 00_Admin/Stakeholder_Milestones/Markdown_Files/*.md; do
-            # Check if files actually exist to prevent errors if the folder is empty
-            if [ -f "$file" ]; then
-              filename=$(basename "$file" .md)
-              pandoc "$file" -o "00_Admin/Stakeholder_Milestones/PDF_Outputs/$filename.pdf" --pdf-engine=xelatex
-              echo "Converted $filename.md to PDF"
-            fi
+          set -euo pipefail
+          # Skip the loop entirely if the folder has no .md files
+          shopt -s nullglob
+          for file in "$SRC_DIR"/*.md; do
+            filename=$(basename "$file" .md)
+
+            md-to-pdf "$file" \
+              --launch-options '{"args":["--no-sandbox"]}'
+
+            mv "$SRC_DIR/$filename.pdf" "$OUT_DIR/"
+
+            echo "Converted $filename.md to PDF"
           done
-          
+
       - name: Commit generated PDFs back to repo
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
