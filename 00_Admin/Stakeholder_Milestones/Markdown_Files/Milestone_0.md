@@ -1,6 +1,5 @@
 # Milestone 0: Timeline & Project Planning
 **Created:** 2026-10-02
-**Last Edited:** 2026-10-01
 
 ## Timeline
 ### Stakeholder Milestones
@@ -63,7 +62,8 @@ italicized, on a separate line etc.)
 
 **Lead:** Ursula
 
-Complete preliminary research on the following topics to guide design input decisions and development planning: 
+Complete preliminary research on the following topics to guide design input decisions and development planning:
+ 
 1. Doppler ultrasound (B-mode, Doppler, FMD)
     - **Assignee:** Baoze
     - Determine what we need to test (which kinds of ultrasounds - ex. interventions vs standard, how many and type of test subjects)
