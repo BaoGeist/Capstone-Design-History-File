@@ -42,10 +42,12 @@ jobs:
           shopt -s nullglob
           for file in "$SRC_DIR"/*.md; do
             filename=$(basename "$file" .md)
-            # --no-sandbox: Ubuntu runners block Chromium's user-namespace sandbox
+
             md-to-pdf "$file" \
-              --dest "$OUT_DIR/$filename.pdf" \
               --launch-options '{"args":["--no-sandbox"]}'
+
+            mv "$SRC_DIR/$filename.pdf" "$OUT_DIR/"
+
             echo "Converted $filename.md to PDF"
           done
 
