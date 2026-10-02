@@ -32,26 +32,12 @@
 
 Create a fall semester timeline for stakeholder milestones, defining research topics, user needs, rough deadlines, and project manager assignments. 
 
-The following task categories and details are pulled from Progress Report 1 instructions.
-
-#### Background and Motivation
-- Describe the problem context and the circumstances that motivate the project.
-- Use stakeholder discussions and relevant literature to explain why the problem is important and why an
-engineering response is warranted.
-- Define the intended user(s), stakeholder(s), and setting of use with enough specificity to guide later design
-decisions.
-
-#### User needs and project statement
-- Summarize the user needs that your team has identified and distinguish needs from proposed solutions.
-- Explain the expected impact of a successful design on the stakeholder, broader society, or environment.
-Consider health, safety, economic, social, environmental, legal, and cultural dimensions where relevant.
-- End with a short, explicit need statement that is visually distinct from the surrounding text (e.g. bolded,
-italicized, on a separate line etc.)
+Progress Report 1 requirements: [Appendix A — Progress Report 1](#progress-report-1)
 
 #### Course Deliverable(s)
 1. **Progress Report 1** is due on **October 2nd**, focusing on the topics: 
-    - Background and motivation (Ursula)
-    - User needs and project statement (Seaya)
+    - [Background and motivation](#background-and-motivation) (Ursula)
+    - [User needs and project statement](#user-needs-and-project-statement) (Seaya)
 
 <br>
 <hr style="border: none; border-top: 1px dashed;">
@@ -81,44 +67,23 @@ Complete preliminary research on the following topics to guide design input deci
     - Research commonly used tools for edge detection
     - Are there specific tools better suited for ultrasound imaging?
 
-The following task categories and details are largely pulled from Progress Report 2 instructions, with some additional notes for our scope. 
+Progress Report 2 requirements: [Appendix A — Progress Report 2](#progress-report-2). Our scope-specific notes for those sections:
 
-#### Design Inputs
-- Define the requirements, specifications, objectives, and constraints that the design is expected to satisfy.
-- Develop objective and, wherever feasible, quantitative criteria through stakeholder consultation, literature
-review, and discussions with disciplinary instructors.
-    - Based on Doppler ultrasound research + stakeholder defined user needs, create a list of ultrasound data types needed to produce robust, full-coverage software.
-        - i.e. interventional vs standard - and what kinds of interventions? How will that define our coverage?
-    - Use preliminary FMD recording to detail specific Doppler ultrasound metrics and data.
-- Consider technical, economic, environmental, ergonomic, societal, safety, legal, and regulatory inputs as
-applicable.
-- Trace each important design input to a user need, stakeholder expectation, risk, standard, or other credible
-source
+#### Design Input Notes
+- Based on Doppler ultrasound research + stakeholder defined user needs, create a list of ultrasound data types needed to produce robust, full-coverage software.
+    - i.e. interventional vs standard - and what kinds of interventions? How will that define our coverage?
+- Use preliminary FMD recording to detail specific Doppler ultrasound metrics and data.
 
-#### Development Process & Preliminary Plan
-- Describe the structured process your team will use to generate, analyze, and compare multiple design
-concepts.
-    - How will we be exploring/testing different image processing tools/libraries? 
-    - What are high-level design outputs that we will be working towards?
-- Use relevant theory, calculations, models, or simulations to investigate feasibility to an appropriate
-preliminary depth.
-- Consider uncertainty and trade-offs, including societal, environmental, and legal factors that could affect
-concept selection.
-
-#### Preliminary Risk Analysis
-- Identify early health and safety risks associated with implementation, prototyping, verification,
-manufacturing, deployment, or use.
-- Identify potentially applicable standards, codes, laws, and regulatory requirements, including the
-consequences of non-compliance.
-- Identify relevant ethical concerns and their possible effects on users or society.
-- Comment on how the identified risks or constraints influence design concept generation and evaluation
+#### Development Process Notes
+- How will we be exploring/testing different image processing tools/libraries? 
+- What are high-level design outputs that we will be working towards?
 
 #### Course Deliverable(s)
 1. **Progress Report 2** is due on **October 23rd**, focusing on the topics: 
     - Updated user and problem framing (Seaya)
-    - Design inputs (Baoze)
-    - Concept-development process and preliminary analysis  (All)
-    - Preliminary risk analysis (Ursula)
+    - [Design inputs](#design-inputs) (Baoze)
+    - [Concept-development process and preliminary analysis](#development-process--preliminary-plan)  (All)
+    - [Preliminary risk analysis](#preliminary-risk-analysis) (Ursula)
 2. A **graded advisor meeting** is scheduled for **October 29th**, with Dr. McDonald, Dr. Smith, and Mohamad. **The meeting agenda must be submitted to the advisors *one week* before the scheduled meeting, on October 22nd.** See Milestone 2 course deliverables for more details on meeting requirements.
 
 <br>
@@ -168,9 +133,79 @@ Determine if any materials or resources need to be requested for the prototyping
 
 **Lead:** Seaya
 
-Compile research, prototypes, decisions, and design plan drafts into one comprehensive final implementation plan. This plan should meet all the requirements outlined in the **"Final concept and preliminary design configuration"** section below. 
+Compile research, prototypes, decisions, and design plan drafts into one comprehensive final implementation plan. This plan should meet all the requirements outlined in [Final concept and preliminary design configuration](#final-concept-and-preliminary-design-configuration) in Appendix A.
 
-The following task categories and details are pulled from Progress Report 3 instructions.  
+Progress Report 3 requirements: [Appendix A — Progress Report 3](#progress-report-3)
+
+#### Course Deliverable(s)
+1. A **graded advisor meeting** is scheduled for **November 26th**, with Dr. McDonald, Dr. Smith, and Mohamad. 
+
+    At this stage of the project, the team is expected to present a preliminary prototype and explain the design outputs that are chosen. Instructors use this meeting to provide constructive criticism and challenge the team to consider scenarios that have yet to be implemented. The team will consolidate and refine the prototype before the POC demonstration.
+
+2. **Progress Report 3** is due on **December 11th**, focusing on topics: (responsibility divisions are TBD)
+    - [Summary](#summary) (background, user inputs and solution)
+    - [Design outputs](#design-outputs)
+    - [Final concept and preliminary design configuration](#final-concept-and-preliminary-design-configuration)
+    - [Risk and compliance management plan](#risk-and-compliance-management-plan)
+3. **Proof of Concept Demo** occurs on **December 3rd**, focusing on the following (All):
+    - Explanation of design choices and assumption
+    - Showcasing prototype of project
+    - Feedback from professors and teaching assistants
+
+<br>
+<hr style="border: none; border-top: 1px dashed;">
+
+## Appendix A: Progress Report Instructions
+
+Section requirements copied from the IBEHS 5P06 progress report instructions. Each milestone above links to the sections it covers.
+
+### Progress Report 1
+**Due:** 2026-10-02 — see [Milestone 0](#milestone-0-timeline--project-planning)
+
+#### Background and Motivation
+- Describe the problem context and the circumstances that motivate the project.
+- Use stakeholder discussions and relevant literature to explain why the problem is important and why an
+engineering response is warranted.
+- Define the intended user(s), stakeholder(s), and setting of use with enough specificity to guide later design
+decisions.
+
+#### User needs and project statement
+- Summarize the user needs that your team has identified and distinguish needs from proposed solutions.
+- Explain the expected impact of a successful design on the stakeholder, broader society, or environment.
+Consider health, safety, economic, social, environmental, legal, and cultural dimensions where relevant.
+- End with a short, explicit need statement that is visually distinct from the surrounding text (e.g. bolded,
+italicized, on a separate line etc.)
+
+### Progress Report 2
+**Due:** 2026-10-23 — see [Milestone 1](#milestone-1-preliminary-research--design-inputs)
+
+#### Design Inputs
+- Define the requirements, specifications, objectives, and constraints that the design is expected to satisfy.
+- Develop objective and, wherever feasible, quantitative criteria through stakeholder consultation, literature
+review, and discussions with disciplinary instructors.
+- Consider technical, economic, environmental, ergonomic, societal, safety, legal, and regulatory inputs as
+applicable.
+- Trace each important design input to a user need, stakeholder expectation, risk, standard, or other credible
+source
+
+#### Development Process & Preliminary Plan
+- Describe the structured process your team will use to generate, analyze, and compare multiple design
+concepts.
+- Use relevant theory, calculations, models, or simulations to investigate feasibility to an appropriate
+preliminary depth.
+- Consider uncertainty and trade-offs, including societal, environmental, and legal factors that could affect
+concept selection.
+
+#### Preliminary Risk Analysis
+- Identify early health and safety risks associated with implementation, prototyping, verification,
+manufacturing, deployment, or use.
+- Identify potentially applicable standards, codes, laws, and regulatory requirements, including the
+consequences of non-compliance.
+- Identify relevant ethical concerns and their possible effects on users or society.
+- Comment on how the identified risks or constraints influence design concept generation and evaluation
+
+### Progress Report 3
+**Due:** 2026-12-11 — see [Milestone 4](#milestone-4-final-implementation-plan)
 
 #### Summary
 - Provide a concise overview of the problem, user need, selected solution direction, planned implementation, and
@@ -197,18 +232,3 @@ relevant.
 - Identify health and safety risks associated with implementation, prototyping, verification, manufacturing, deployment, and use.
 - Define feasible risk-mitigation and compliance strategies tied to applicable standards, codes, laws, and regulatory requirements.
 - State which strategies must be implemented and verified in the final prototype.
-
-#### Course Deliverable(s)
-1. A **graded advisor meeting** is scheduled for **November 26th**, with Dr. McDonald, Dr. Smith, and Mohamad. 
-
-    At this stage of the project, the team is expected to present a preliminary prototype and explain the design outputs that are chosen. Instructors use this meeting to provide constructive criticism and challenge the team to consider scenarios that have yet to be implemented. The team will consolidate and refine the prototype before the POC demonstration.
-
-2. **Progress Report 3** is due on **December 11th**, focusing on topics: (responsibility divisions are TBD)
-    - Summary (background, user inputs and solution)
-    - Design outputs
-    - Final concept and preliminary design configuration
-    - Risk and compliance management plan
-3. **Proof of Concept Demo** occurs on **December 3rd**, focusing on the following (All):
-    - Explanation of design choices and assumption
-    - Showcasing prototype of project
-    - Feedback from professors and teaching assistants
