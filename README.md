@@ -14,6 +14,7 @@ This Design History File is the authoritative record of our engineering design p
 
 ## Folder Structure
 
+<!-- FOLDER_TABLE_START -->
 | Folder | Contents |
 |--------|----------|
 | `00_Admin/` | Team roles, responsibilities, Gantt chart, project plan |
@@ -27,6 +28,7 @@ This Design History File is the authoritative record of our engineering design p
 | `08_Design_Reviews/` | Discussion documents and feedback records for each review |
 | `09_Decisions_Log/` | Decision records linking evidence to choices |
 | `10_Superseded_Approaches/` | Failed approaches and abandoned designs with reasoning |
+<!-- FOLDER_TABLE_END -->
 
 ## File Naming Convention
 
