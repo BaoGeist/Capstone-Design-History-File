@@ -119,7 +119,7 @@ consequences of non-compliance.
     - Design inputs (Baoze)
     - Concept-development process and preliminary analysis  (All)
     - Preliminary risk analysis (Ursula)
-2. A **graded advisor meeting** is scheduled for **October 29th**, with Dr. McDonald, Dr. Smith, and Mohammed. **The meeting agenda must be submitted to the advisors *one week* before the scheduled meeting, on October 22nd.** See Milestone 2 course deliverables for more details on meeting requirements.
+2. A **graded advisor meeting** is scheduled for **October 29th**, with Dr. McDonald, Dr. Smith, and Mohamad. **The meeting agenda must be submitted to the advisors *one week* before the scheduled meeting, on October 22nd.** See Milestone 2 course deliverables for more details on meeting requirements.
 
 <br>
 <hr style="border: none; border-top: 1px dashed;">
@@ -152,9 +152,8 @@ Determine if any materials or resources need to be requested for the prototyping
 
 **Lead:** Baoze
 
-
 #### Course Deliverable(s)
-1. A **graded advisor meeting** is scheduled for **November 26th**, with Dr. McDonald, Dr. Smith, and Mohammed. **The meeting agenda must be submitted to the advisors one week before the scheduled meeting, on November 19th.**
+1. A **graded advisor meeting** is scheduled for **November 26th**, with Dr. McDonald, Dr. Smith, and Mohamad. **The meeting agenda must be submitted to the advisors one week before the scheduled meeting, on November 19th.**
 
 2. The **POC demo** will take place **between December 3rd and December 10th**. For our timeline purposes we are aiming to complete corresponding tasks and deliverables for December 3rd. At this time (2026-10-02), the demo rubric has not been released, so the following tasks are high-level ideas aligned with what we would want to test/prototype in these planning stages for our end product:
     - Demo image processing library/tool tests with initial FMD imaging (and other data if possible) → discuss the results of each tool and which ones will be used in future development of the product.
@@ -200,7 +199,7 @@ relevant.
 - State which strategies must be implemented and verified in the final prototype.
 
 #### Course Deliverable(s)
-1. A **graded advisor meeting** is scheduled for **November 26th**, with Dr. McDonald, Dr. Smith, and Mohammed. 
+1. A **graded advisor meeting** is scheduled for **November 26th**, with Dr. McDonald, Dr. Smith, and Mohamad. 
 
     At this stage of the project, the team is expected to present a preliminary prototype and explain the design outputs that are chosen. Instructors use this meeting to provide constructive criticism and challenge the team to consider scenarios that have yet to be implemented. The team will consolidate and refine the prototype before the POC demonstration.
 
