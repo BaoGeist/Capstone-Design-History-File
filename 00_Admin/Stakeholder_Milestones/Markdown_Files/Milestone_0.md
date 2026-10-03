@@ -175,20 +175,18 @@ Complete and compile research from Milestone 1 towards defining and detailing sp
 - Implement and verify the test harness (Seaya, Ursula)
 - Define the output interface, including how to handle undesirable data (Baoze)
 
-**Doppler**
+**Doppler Throwaway Tests**
 
-- Prototype scale, waveform, ECG and timeline 
-- Define metrics: velocity, systole/diastole, pulsatility index
+- Extract metrics: velocity, systole/diastole, pulsatility index (Ursula, Baoze)
 
-**Longitudinal view**
+**Longitudinal View Throwaway Tests**
 
-- Prototype depth scale, wall detection and diameter
-- Isolate the green placement box
-- Track diameter across frames
+- Isolate the green placement box (Seaya, Baoze)
+- Track diameter across frames (Seaya)
 
 **Transverse view**
 
-- Prototype vessel detection and CSA 
+- Prototype vessel detection and CSA (Kyle, Baoze)
 - Track CSA across frames (Baoze)
 
 **GUI**
@@ -217,11 +215,13 @@ All prototypes should work by the end of this milestone.
 Compile research, prototypes, decisions, and design plan drafts into one comprehensive final implementation plan. This plan should meet all the requirements outlined in [Final concept and preliminary design configuration](#final-concept-and-preliminary-design-configuration) in Appendix A.
 
 #### Milestone Deliverables
-- Validate Doppler metrics
-- Validate diameter against Danny Green's software
-- Validate CSA against manual tracings
-- Finalize the PhysioMerge integration design
-- Compile the final design document
+- Finalize Doppler Design (Ursula, Kyle)
+- Finalize B-Mode Design (Seaya, Kyle, Baoze)
+- Finalize UI (Baoze) 
+- Finalize the PhysioMerge integration design (All)
+- Compile the final design document (All)
+- Compile the final presentation/demo (All)
+- Evaluate feasability of project extensions (All)
 
 #### Course Deliverables
 1. A **graded advisor meeting** is scheduled for **November 26th**, with Dr. McDonald, Dr. Smith, and Mohamad. 
