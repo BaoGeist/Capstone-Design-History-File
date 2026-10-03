@@ -19,9 +19,9 @@ This Design History File is the authoritative record of our engineering design p
 |--------|----------|
 | `00_Admin/` | Team roles, responsibilities, Gantt chart, project plan |
 | `01_Background/` | Literature reviews, stakeholder communications, standards & regulations |
-| `02_Requirements/` | Design inputs, stakeholder needs, requirements traceability |
-| `03_Meetings/` | Meeting agendas, minutes, action items |
-| `04_Design/` | Concept generation, evaluation matrices, detailed design |
+| `02_Meetings/` | Meeting agendas, minutes, action items |
+| `03_Design/` | Concept generation, evaluation matrices, detailed design |
+| `04_Deliverables/` | Project documentation and files |
 <!-- FOLDER_TABLE_END -->
 
 ## File Naming Convention
