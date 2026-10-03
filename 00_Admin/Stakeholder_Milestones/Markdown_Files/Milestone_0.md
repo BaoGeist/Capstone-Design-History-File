@@ -95,17 +95,19 @@ Complete preliminary research on the following topics to guide design input deci
 ### Milestone Deliverables
 **Requirements & data**
 
-- List image processing requirements and robustness cases
-- Determine hardware constraints (GPU/CPU, real-time)
-- Build a test dataset with ground truth
-- Write a validation test plan against Danny Green's software
-- Brainstorm video segmentation methods
-
+- List image processing requirements and robustness cases (Seaya)
+- Determine hardware constraints (GPU/CPU, real-time) (Baoze)
+- Design a test dataset with ground truth (Baoze, Ursula, Kyle) 
+- Write a validation test plan against Danny Green's software (Ursula)
+- Brainstorm video segmentation methods (Seaya / All)
+- List requirements for test harness (All)
+  
 **GUI & PhysioMerge**
 
-- List UI requirements
-- PhysioMerge recon: data handling, available commands
-- Write a PhysioMerge integration spec
+- List UI requirements (All)
+- PhysioMerge recon: data handling, available commands (Kyle, `Baoze)
+- Write a PhysioMerge integration spec (Kyle, Baoze)
+- List specific requirements for output (All)
 
 ### Course Deliverables
 1. **Progress Report 2** is due on **October 23rd**, focusing on the topics: 
@@ -130,25 +132,25 @@ Complete and compile research from Milestone 1 towards defining and detailing sp
 ## Milestone Deliverables
 **Segmentation & test harness**
 
-- Compare segmentation methods
-- Throwaway test: segment fixed regions on the test dataset
-- Design the test harness
+- Compare segmentation methods (Seaya)
+- Throwaway test: segment fixed regions on the test dataset (Seaya)
+- Design the test harness (Ursula, Seaya)
 
 **Throwaway tests for high-risk algorithms**
 
-- Doppler: OCR the scale
-- Doppler: extract the waveform and its envelope
-- Doppler: separate the ECG and detect R-peaks
-- Doppler: track the timeline from timestamps
-- B-mode: OCR the depth scale
-- Longitudinal: detect artery walls
-- Longitudinal: calculate angle-corrected diameter
-- Transverse: detect circular vessels
+- Doppler: OCR the scale (Kyle)
+- Doppler: extract the waveform and its envelope (Ursula)
+- Doppler: separate the ECG and detect R-peaks (Ursula)
+- Doppler: track the timeline from timestamps (Baoze)
+- B-mode: OCR the depth scale (Kyle)
+- Longitudinal: detect artery walls (Seaya)
+- Longitudinal: calculate angle-corrected diameter (Seaya)
+- Transverse: detect circular vessels (Baoze)
 
 **UI**
 
-- Define UI states (process, edit, pause, cancel, undo)
-- Wireframe the UI and start the Figma overlay
+- Define UI states (process, edit, pause, cancel, undo) (Baoze)
+- Wireframe the UI and start the Figma overlay (Baoze, Seaya) 
 
 ### Course Deliverables
 1. A **graded advisor meeting** is scheduled for **October 29th**, with Dr. McDonald, Dr. Smith, and Mohammed.
@@ -169,13 +171,13 @@ Complete and compile research from Milestone 1 towards defining and detailing sp
 ### Milestone Deliverables
 **Foundation**
 
-- Prototype automatic region detection
-- Implement and verify the test harness
-- Define the output interface, including messy data
+- Prototype automatic region detection (Seaya)
+- Implement and verify the test harness (Seaya, Ursula)
+- Define the output interface, including how to handle undesirable data (Baoze)
 
 **Doppler**
 
-- Prototype scale, waveform, ECG and timeline
+- Prototype scale, waveform, ECG and timeline 
 - Define metrics: velocity, systole/diastole, pulsatility index
 
 **Longitudinal view**
@@ -186,13 +188,13 @@ Complete and compile research from Milestone 1 towards defining and detailing sp
 
 **Transverse view**
 
-- Prototype vessel detection and CSA
-- Track CSA across frames
+- Prototype vessel detection and CSA 
+- Track CSA across frames (Baoze)
 
 **GUI**
 
-- Finish the Figma overlay
-- Prototype the overlay on the FMD video
+- Finish the Figma overlay (Baoze)
+- Prototype the overlay on the FMD video (Baoze)
 
 All prototypes should work by the end of this milestone.
 
